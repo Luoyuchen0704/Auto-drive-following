@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|f:\\tools\\unity\\project\\auto-drive-following\\assets\\scripts\\vehicledetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vehicledetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|F:\\Tools\\Unity\\Project\\Auto-drive-following\\assets\\scripts\\unityopencvextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unityopencvextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|F:\\Tools\\Unity\\Project\\Auto-drive-following\\assets\\scripts\\testopencv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6456B-D168-2462-269C-85BCE889F425}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testopencv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnityOpenCvExtensions.cs",
+              "DocumentMoniker": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\UnityOpenCvExtensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UnityOpenCvExtensions.cs",
+              "ToolTip": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\UnityOpenCvExtensions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UnityOpenCvExtensions.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAywFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:00:34.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehicleDetection.cs",
+              "DocumentMoniker": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\VehicleDetection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VehicleDetection.cs",
+              "ToolTip": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\VehicleDetection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VehicleDetection.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAywD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:18:25.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestOpenCV.cs",
+              "DocumentMoniker": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\TestOpenCV.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestOpenCV.cs",
+              "ToolTip": "F:\\Tools\\Unity\\Project\\Auto-drive-following\\Assets\\Scripts\\TestOpenCV.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestOpenCV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:55:20.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
