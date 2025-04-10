@@ -64,7 +64,7 @@ public static class UnityOpenCvExtensions
             existingTexture.height != mat.Height ||
             existingTexture.format != format)
         {
-            existingTexture = new Texture2D(mat.Width, mat.Height, format, false);
+            existingTexture = new Texture2D(mat.Width, mat.Height, format, false, true);
         }
 
         // OpenCV 的 BGRA 转 Unity 的 RGBA（可选）

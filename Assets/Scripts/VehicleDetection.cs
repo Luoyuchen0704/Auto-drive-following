@@ -24,27 +24,27 @@ public class VehicleDetection : MonoBehaviour
 
     void Start()
     {
-        // 初始化Texture和Mat
-        outputTex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGBA32, false);
+        // 初始化Texture和Mat,添加true启用线性空间
+        outputTex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGBA32, false, true);
         rgbaMat = new Mat(renderTexture.height, renderTexture.width, MatType.CV_8UC4);
         grayMat = new Mat();
 
         // 加载Haar级联文件
-        string xmlPath = Path.Combine(Application.streamingAssetsPath, "cars1.xml");
+        string xmlPath = Path.Combine(Application.streamingAssetsPath, "cars.xml");
         cascade = new CascadeClassifier(xmlPath);
     }
 
     void Update()
     {
         // 从RenderTexture读取像素到Texture2D
-        Texture2D inputTex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGBA32, false);
+        Texture2D inputTex = new Texture2D(renderTexture.width, renderTexture.height, TextureFormat.RGBA32, false, true);
         RenderTexture.active = renderTexture;
         inputTex.ReadPixels(new UnityEngine.Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
         inputTex.Apply();
         RenderTexture.active = null;
 
         // 转换Unity Texture到OpenCvSharp Mat
-        rgbaMat = UnityOpenCvExtensions.TextureToMat(inputTex); // 需要OpenCvSharp的Unity扩展
+        rgbaMat = UnityOpenCvExtensions.TextureToMat(inputTex); 
 
         // 转换为灰度图
         Cv2.CvtColor(rgbaMat, grayMat, ColorConversionCodes.RGBA2GRAY);
@@ -70,7 +70,7 @@ public class VehicleDetection : MonoBehaviour
         }
 
         
-        // 转换回Unity Texture
+        // Mat图像转换回Unity Texture
         outputTex = UnityOpenCvExtensions.MatToTexture(rgbaMat, outputTex);
         rawImage.texture = outputTex;
 
